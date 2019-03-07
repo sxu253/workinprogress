@@ -1,0 +1,94 @@
+
+body {
+  font-family: "Courier New";
+}
+h3, h4 {
+  margin: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 30px;
+}
+p {
+  margin: 30px;
+  font-size: 15px;
+}
+
+span {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.sidenav {
+  padding-top: 20px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 165, 0,.95);
+  /*background-color: rgb(0, 184, 135, .94);*/
+  overflow-x: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+
+}
+
+#home {
+  border: 3px solid white;
+  width: 60%;
+  margin-left:30px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+#home:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0,.95);
+}
+
+#home a:hover {
+  color: rgb(255, 165, 0,.95);
+  font-size: 16px;
+}
+
+#home a {
+  color: white;
+  font-size: 16px;
+}
+
+
+
+.sidenav a {
+  margin: 0px 15px 10px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px max-width: 40px {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
