@@ -96,6 +96,6 @@ span {
 @media (max-width: 800px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .sidenav {background-color: rgb(255, 165);}
+  .sidenav {background-color: rgb(255, 165, 0);}
   #title {margin-top: 50px; padding-top: 25px;}
 }
