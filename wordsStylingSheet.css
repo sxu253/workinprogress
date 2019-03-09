@@ -34,7 +34,6 @@ span {
   overflow-x: hidden;
   transition: 0.5s;
   overflow-y: auto;
-
 }
 
 #home {
@@ -91,4 +90,5 @@ span {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  .sidenav {background-color: rgb(255, 165, 0,.95);}
 }
