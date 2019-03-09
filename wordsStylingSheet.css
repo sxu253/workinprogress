@@ -79,7 +79,9 @@ span {
 
 }
 
-
+.topContainer{
+  display: flex;
+}
 
 .sidenav .closebtn {
   position: absolute;
@@ -92,6 +94,6 @@ span {
 @media screen and (max-width: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .sidenav {background-color: rgb(255, 165, 0,.95);}
+  .sidenav {background-color: rgb(255, 165);}
   #title {margin-top: 15px;}
 }
