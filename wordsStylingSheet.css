@@ -82,6 +82,7 @@ span {
 .topContainer{
   flex-flow: row wrap;
   display: flex;
+  justify-content: flex-end;
 }
 
 .sidenav .closebtn {
