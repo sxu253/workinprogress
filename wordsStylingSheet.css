@@ -79,6 +79,8 @@ span {
 
 }
 
+
+
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -91,4 +93,5 @@ span {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .sidenav {background-color: rgb(255, 165, 0,.95);}
+  #title {margin-top: 15px;}
 }
