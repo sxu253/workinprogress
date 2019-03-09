@@ -80,8 +80,9 @@ span {
 }
 
 .topContainer{
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   display: flex;
+  justify-content: space-between;
 }
 
 .sidenav .closebtn {
@@ -96,6 +97,4 @@ span {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .sidenav {background-color: rgb(255, 165, 0);}
-  .sidenav a:hover {background-color: rgb(255, 165, 0);}
-  #title {margin-top: 50px; padding-top: 25px;}
 }
