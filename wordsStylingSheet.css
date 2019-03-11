@@ -35,7 +35,8 @@ span {
   transition: 0.5s;
   overflow-y: auto;
 }
-#title {
+.title {
+    font-size: 20px;
     padding-top: 50px;
 }
 
