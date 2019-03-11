@@ -35,6 +35,9 @@ span {
   transition: 0.5s;
   overflow-y: auto;
 }
+#title {
+    margin-top: 10px;
+}
 
 #home {
   border: 3px solid white;
