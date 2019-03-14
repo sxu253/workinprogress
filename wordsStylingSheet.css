@@ -20,6 +20,14 @@ p {
   font-size: 15px;
 }
 
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
 span {
   position: absolute;
   top: 0px;
