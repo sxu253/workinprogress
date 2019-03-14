@@ -22,6 +22,7 @@ p {
 
 table, th, td {
   border-collapse: collapse;
+  margin: 30px;
 }
 th, td {
   padding: 10px;
