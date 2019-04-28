@@ -113,7 +113,7 @@ span {
 
 @media (max-width: 850px) {
   .sidenav {padding-top: 15px;}
-	sidenav {padding-bottom: 15px;}
+	sidenav {padding-bottom: 25px;}
   .sidenav a {font-size: 18px;}
   .sidenav {background-color: rgb(255, 165, 0);}
 }
