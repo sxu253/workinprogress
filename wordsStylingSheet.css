@@ -4,6 +4,12 @@ hr.style1{
 	border-top: 1px solid #2a9688;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 body {
   font-family: "Courier New";
 }
