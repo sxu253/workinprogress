@@ -85,12 +85,12 @@ Which I would consider to be the greatest win of all. </p>
 </div>
 
 <script>
-function openNav(){
-  document.getElementById($("#nav-placeholder").load("nav.html")).style.width = "350px";
+$(function(){
+  $("#nav-placeholder").load("nav.html");
 });
 </script>
 
-<!-- <script>
+<script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "350px";
 }
@@ -98,7 +98,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-</script> -->
+</script>
 
 </body>
 </html>
