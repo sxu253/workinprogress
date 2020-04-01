@@ -27,6 +27,7 @@
   <p class = "title">hi, i'm Sonia!</p>
 </div>
 
+  <?php echo '<p>Hello World</p>'; ?> 
   <div id="mySidenav" class="sidenav">
     <?php include('../includes/nav.php'); ?>
   </div>
