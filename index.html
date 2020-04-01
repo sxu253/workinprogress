@@ -21,29 +21,19 @@
 </head>
 
 <body>
-
-  <div id='panelRight' style='display:none;width:300px;background:#333;opacity: 0.9'>
+  <!-- Navigation Panel -->
+  <div id='panelRight' style='display:none;width:500px;background:#ebac00;opacity: 0.85'>
       <div style='position:absolute; right:5px;top:5px;cursor:pointer;'>
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="square" stroke-linejoin="arcs" onclick='hidePanel()'><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
       </div>
   </div>
 
   <h1>jQuery Dock Panel Example</h1>
-  <div class="jquery-script-ads" style="margin:30px auto"><script type="text/javascript"><!--
-  google_ad_client = "ca-pub-2783044520727903";
-  /* jQuery_demo */
-  google_ad_slot = "2780937993";
-  google_ad_width = 728;
-  google_ad_height = 90;
-  //-->
-  </script>
-  <script type="text/javascript"
-  src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
-  </script></div>
+
       <a href="javascript:;" onclick="showPanel()">show panel</a> /
       <a href="javascript:;" onclick="hidePanel()">hide panel</a>
 
-      <h3>Usage:</h3>
+      <!-- <h3>Usage:</h3>
       <p>
           <h4>init</h4>
           <code>$(selector).dockPanel({dock: <i>['left' | 'right' | 'top' | 'bottom' ]</i> }) </code>
@@ -55,7 +45,7 @@
           <h4>methods:</h4>
           <code><b>show:</b> $(selector).dockPanel(<i>'show'</i>)</code><br>
           <code><b>hide:</b> $(selector).dockPanel(<i>'hide'</i>)</code>
-      </p>
+      </p> -->
       <script>
 
           function hidePanel() {
