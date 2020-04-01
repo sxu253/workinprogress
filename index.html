@@ -12,11 +12,11 @@
 <title>A Work in Progress</title>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 
-
 <!-- Custom styles for this template -->
 <link href="wordsStylingSheet.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 
@@ -27,9 +27,8 @@
   <p class = "title">hi, i'm Sonia!</p>
 </div>
 
-  <?php echo '<p>Hello World</p>'; ?> 
+  <?php echo '<p>Hello World</p>'; ?>
   <div id="mySidenav" class="sidenav">
-    <?php include('../includes/nav.php'); ?>
   </div>
 
 <!-- <div id="mySidenav" class="sidenav">
@@ -77,7 +76,7 @@ The books section in the control center serves as my public archive, mostly so I
 from my devices. I guess in a way it could also serve as your tl;dr version of the book, or maybe it'll prompt you to want to read it.
 Which I would consider to be the greatest win of all. </p>
 
-<script>
+<!-- <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "350px";
 }
@@ -85,6 +84,11 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+</script> -->
+<script>
+$(function(){
+  $("#mySidenav").load("nav.html");
+});
 </script>
 
 </body>
