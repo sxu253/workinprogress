@@ -92,9 +92,13 @@ $(function(){
 });
 </script> -->
 <script>
+$(function(){
+  $("#mySidenav").load("nav.html");
+});
+
 $(document).ready(function(){
   $("button").click(function(){
-    $("#mySidenav").load("nav.html").toggle();
+    $("#mySidenav").toggle();
   });
 });
 </script>
