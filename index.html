@@ -79,7 +79,8 @@ Which I would consider to be the greatest win of all. </p>
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("#mySidenav").load("nav.html").toggle().width("400pt");
+    // $("#mySidenav").load("nav.html").toggle().width("400pt");
+    $("#mySidenav").load("nav.html").animate({height: "400px"});
   });
 });
 </script>
