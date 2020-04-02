@@ -80,7 +80,9 @@ Which I would consider to be the greatest win of all. </p>
 
 $(document).ready(function(){
   $("div").click(function(){
-    $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+    // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+      $("#mySidenav").load("nav.html");
+      $("#mySidenav").toggle(300,"swing").width("400pt");
   });
 });
 
