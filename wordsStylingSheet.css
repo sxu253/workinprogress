@@ -117,9 +117,8 @@ span {
 }
 
 button.menuButton {
-	flex-flow: row wrap;
 	display: flex;
-	align-content: space-between;
+  justify-content: flex-end;
 }
 
 .sidenav .closebtn {
