@@ -24,6 +24,7 @@
 
 <div class = "topContainer">
   <!-- <span style="font-size:20px;margin:20px;cursor:pointer" onclick="openNav()">&#9776; control center</span> -->
+  <button>TEST BUTTTTTON</button>
   <p class = "title">hi, i'm Sonia!</p>
 </div>
 
@@ -84,9 +85,17 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script> -->
-<script>
+
+<!-- <script>
 $(function(){
   $("#mySidenav").load("nav.html");
+});
+</script> -->
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#mySidenav").load("nav.html").toggle();
+  });
 });
 </script>
 
