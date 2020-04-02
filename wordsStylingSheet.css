@@ -131,6 +131,7 @@ button {
   transition: all 200ms ease-in-out;
   left:0;
   top:0;
+  margin: 30px;
 }
 
 button:hover {
