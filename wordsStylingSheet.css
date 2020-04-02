@@ -52,11 +52,11 @@ span {
 
 #home:hover {
   background-color: #FFFFFF;
-  color: #ffa500;
+  color: #1DC5A2;
 }
 
 #home a:hover {
-  color:#ffa500;
+  color:#0FBF9A;
   font-size: 16px;
 }
 
@@ -73,7 +73,7 @@ span {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ffa500;
+  background-color: #0FBF9A;
   opacity:0.97;
   /*background-color: rgb(0, 184, 135, .94);*/
   overflow-x: hidden;
@@ -120,11 +120,11 @@ span {
 button {
   position:relative;
   background:white;
-  border:1px solid #ffa500;
+  border:1px solid #0FBF9A;
   padding:20px;
   font-size:0.9em;
-  color:#ffa500;
-  box-shadow:4px 4px 0px 0px #ffa500;
+  color:#0FBF9A;
+  box-shadow:4px 4px 0px 0px #0FBF9A;
   font-family: 'Open Sans', sans-serif;
   font-weight:700;
   letter-spacing:5px;
@@ -138,12 +138,12 @@ button {
 button:hover {
   left:4px;
   top:4px;
-  box-shadow:0 0 0 0 #ffa500;
+  box-shadow:0 0 0 0 #0FBF9A;
 }
 
 @media (max-width: 850px) {
   .sidenav {padding-top: 15px;}
 	sidenav {padding-bottom: 50px;}
   .sidenav a {font-size: 18px;}
-  .sidenav {background-color: #ffa500;}
+  .sidenav {background-color: #0FBF9A;}
 }
