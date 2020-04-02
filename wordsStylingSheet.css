@@ -110,16 +110,12 @@ span {
 
 
 .topContainer{
-  flex-flow: row wrap;
   display: flex;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
   align-content: space-between;
 }
 
-button.menuButton {
-	display: flex;
-  flex-direction: row-reverse;
-}
+
 
 .sidenav .closebtn {
   position: absolute;
