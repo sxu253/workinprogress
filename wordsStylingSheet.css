@@ -116,6 +116,12 @@ span {
   align-content: space-between;
 }
 
+button.menuButton {
+	flex-flow: row wrap;
+	display: flex;
+	align-content: space-between;
+}
+
 .sidenav .closebtn {
   position: absolute;
   top: 0;
