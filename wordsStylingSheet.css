@@ -121,7 +121,7 @@ span {
 /* test button */
 
 .c-button {
-  margin-top:45px;
+  /* margin-top:45px; */
   color: #000;
   font-weight: 700;
   font-size: 1em;
@@ -134,12 +134,12 @@ span {
 
 .c-button--gooey {
   color: #06c8d9;
-  font-size: 1.3em;
+  font-size: 1.4em;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border: 4px solid #06c8d9;
   border-radius: 0;
-  padding: 1.2em 3.4em;
+  padding: 1em 1.5em;
   position: relative;
   transition: all 700ms ease;
 }
