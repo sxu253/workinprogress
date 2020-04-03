@@ -46,6 +46,7 @@ span {
   margin: 30px;
   font-size: 15px;
   color: white;
+  padding: 12px;
 }
 
 #home:hover {
@@ -59,6 +60,30 @@ span {
 }
 
 #home a {
+  color: white;
+  font-size: 16px;
+}
+
+#closeButton {
+  border: 3px solid white;
+  width: 60%;
+  margin: 30px;
+  font-size: 15px;
+  color: white;
+  padding: 12px;
+}
+
+#closeButton:hover {
+  background-color: #FFFFFF;
+  color: #1DC5A2;
+}
+
+#closeButton a:hover {
+  color:#0FBF9A;
+  font-size: 16px;
+}
+
+#closeButton a {
   color: white;
   font-size: 16px;
 }
