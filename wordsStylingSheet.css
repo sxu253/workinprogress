@@ -71,22 +71,23 @@ button.closeButton {
   width: 60%;
   margin: 30px;
   font-size: 15px;
-  color: white;
+  color: #1DC5A2;
   padding: 12px;
+  background-color: white;
 }
 
 button.closeButton:hover {
-  background-color: #FFFFFF;
-  color: #1DC5A2;
+  background-color: #1DC5A2;
+  color: white;
 }
 
 button.closeButton a:hover {
-  color:#0FBF9A;
+  color:white;
   font-size: 16px;
 }
 
 button.closeButton a {
-  color: white;
+  color: #1DC5A2;
   font-size: 16px;
 }
 
