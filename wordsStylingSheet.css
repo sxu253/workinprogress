@@ -147,7 +147,7 @@ button.closeButton a {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
 
-button {
+button.WritingMenuButton {
   position:relative;
   background:white;
   border:1px solid #0FBF9A;
@@ -165,7 +165,7 @@ button {
   margin: 30px;
 }
 
-button:hover {
+button.WritingMenuButton:hover {
   left:4px;
   top:4px;
   box-shadow:0 0 0 0 #0FBF9A;
