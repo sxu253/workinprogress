@@ -70,7 +70,7 @@ button.closeButton {
   border: 3px solid white;
   width: 60%;
   margin: 30px;
-  font-size: 15px;
+  font-size: 25px;
   color: #1DC5A2;
   padding: 12px;
   background-color: white;
@@ -88,7 +88,7 @@ button.closeButton a:hover {
 
 button.closeButton a {
   color: #1DC5A2;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .sidenav {
