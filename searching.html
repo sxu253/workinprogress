@@ -42,5 +42,16 @@
     "clean code." I'm learning to search for the beauty in things that I find visually unappealing, even if it means enduring Comic Sans
     and unecessary dropshadows for the time being.</p>
 
+    <script>
+      $(document).ready(function(){
+        $("#mySidenav").toggle().width("400pt");
+        $("div").click(function(){
+          // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+            $("#mySidenav").load("nav.html");
+            $("#mySidenav").toggle().width("400pt");
+        });
+      });
+    </script>
+    
   </body>
 </html>

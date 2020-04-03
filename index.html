@@ -20,9 +20,6 @@
   <!-- <span style="font-size:20px;margin:20px;cursor:pointer" onclick="openNav()">&#9776; control center</span> -->
   <p class = "title">Work in Progress</p>
   <button>WRITINGS</button>
-  <br>
-  <p class = "subtitle">Sonia Xu</p>
-  
 </div>
 
   <div id="mySidenav" class="sidenav">
@@ -74,18 +71,16 @@ from my devices. I guess in a way it could also serve as your tl;dr version of t
 Which I would consider to be the greatest win of all. </p>
 
 
-<script>
-
-$(document).ready(function(){
-  $("#mySidenav").toggle().width("400pt");
-  $("div").click(function(){
-    // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
-      $("#mySidenav").load("nav.html");
+  <script>
+    $(document).ready(function(){
       $("#mySidenav").toggle().width("400pt");
-  });
-});
-
-</script>
+      $("div").click(function(){
+        // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+          $("#mySidenav").load("nav.html");
+          $("#mySidenav").toggle().width("400pt");
+      });
+    });
+  </script>
 
 </body>
 
