@@ -83,14 +83,14 @@ button.closeButton:hover {
 button.closeButton a {
   color: #1DC5A2;
   font-size: 25px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
 }
 
 button.closeButton a:hover {
   color:white;
   font-size: 25px;
 }
-
-
 
 .sidenav {
   padding-top: 20px;
@@ -123,7 +123,6 @@ button.closeButton a:hover {
   font-weight: bold;
 }
 
-
 .topContainer{
   display: flex;
   justify-content: space-between;
@@ -138,7 +137,6 @@ button.closeButton a:hover {
   align-items: baseline;
 }
 
-
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -148,7 +146,6 @@ button.closeButton a:hover {
 }
 
 /* test button */
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
 
 button.WritingMenuButton {
