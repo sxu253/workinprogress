@@ -1,84 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta property="og:site_name" content="Sonia Xu's Notebook"/>
-<meta property="og:title" content="A Work in Progress"/>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Optimizing for learning here.">
-<meta name="author" content="Sonia Xu">
-<title>A Work in Progress</title>
+  <head>
+    <meta property="og:site_name" content="Sonia Xu's Notebook"/>
+    <meta property="og:title" content="A Work in Progress"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Optimizing for learning here.">
+    <meta name="author" content="Sonia Xu">
+    <title>A Work in Progress</title>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136324018-1"></script>
+    <!-- Custom styles for this template -->
+    <link href="wordsStylingSheet.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="topContainer">
+      <div class="titleAndSubtitle">
+        <p class="title">Pinball, 1973</p>
+        <h3 class="authorTitle"> – Haruki Murakami</h3>
+      </div>
+      <button class="WritingMenuButton">WRITINGS</button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+    </div>
+    <h3>– Haruki Murakami</h3>
+    <h4>Somtimes Murakami veers off to the right for such a long time only to come back, and decide to go left. If my description doesn't make sense,
+    go read this book and figure it out. It's brilliant.</h4>
+    <p>All things should have both an entrance and an exit. That’s just the way it is. pg 10 </p>
+    <p>Almost nothing can be gained from pinball. The only payoff is a numerical substitution for pride. The losses, however are considerable. You could probably erect bronze statues of every American president (assuming you are willing to include Richard Nixon) w/ the coins you will lose, while lost time is irreplaceable. When you are standing before the machine engaged in your solitary act of consumption, another guy is plowing through Proust, while still another guy is doing some heavy petting with his girlfriend while watching True Grit at the local drive-in. They’re the one who may wind up becoming groundbreaking novelists or happily married men. No, pinball leads nowhere. The only result is a glowing replay light. Replay, replay, replay – it makes you think the whole aim of the game is to achieve a form of eternity. We know very little about eternity, although we can infer its existence. The goal of pinball is self-transformation, not self-expression. It involves not the expansion of the ego but its diminution. Not analysis but all-embracing acceptance. 21</p>
+    <p>…there are 1.2 million conflicting ideas in the world. Probably more. page 28</p>
+    <p>We can learn from anything if we put in the effort. Right down to the most everyday, commonplace thing.
+    I read somewhere that how we shave in the morning has its own philosophy, too. Otherwise, we couldn’t survive.</p>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-136324018-1');
+      $(document).ready(function(){
+        $("#mySidenav").toggle().width("400pt");
+        $("div").click(function(){
+          // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+            $("#mySidenav").load("nav.html");
+            $("#mySidenav").toggle().width("400pt");
+        });
+      });
     </script>
-<!-- Custom styles for this template -->
-<link href="wordsStylingSheet.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div id = "home" ><a href="index.html">take me home</a></div>
-    <p style = "color: #fff; font-size: 14px">LEARNING</p>
-    <a href="searching.html">everyone always asks about what search algorithm to use but never asks what are you searching for</a>
-    <a href="fundamentals.html">sometimes there's no fun in fundamentals</a>
-    <a href="rightsideofwrong.html">right side of wrong</a>
-    <a href="knowledgehoarder.html">be a knowledge hoarder</a>
-    <p style = "color: #fff; font-size: 14px">PRODUCT & TECH STUFF</p>
-    <a href="instagram.html">instagram is giving me closure on my friendships</a>
-    <p style = "color: #fff; font-size: 14px">LIFE</p>
-    <a href="musubi.html">have you found your one true musubi?</a>
-  <a href="alist.html">things i used to believe that i don't believe anymore</a>
-    <p style = "color: #fff; font-size: 14px">BOOKS</p>
-    <a href="hearthewindsing.html">Hear the Wind Sing by Haruki Murakami</a>
-    <a href="pinball1973.html">Pinball, 1973 by Haruki Murakami</a>
-    <a href="OnlyTheParanoidSurvive.html">Only the Paranoid Survive by Andrew S. Grove</a>
-    <a href="theeffectiveengineer.html">The Effective Engineer by Edmond Lau</a>
-    <a href="VietThanhNguyen.html" style="padding-bottom: 50px">The Sympathizer by Viet Thanh Nguyen</a>
-  </div>
-
-<span style="font-size:20px;margin:20px;cursor:pointer" onclick="openNav()">&#9776; control center</span>
-
-<p class= "title">Pinball, 1973</p>
-<h3> – Haruki Murakami</h3>
-<h4> Somtimes Murakami veers off to the right for such a long time only to come back, and decide to go left. If my description doesn't make sense,
-go read this book and figure it out. It's brilliant.</h4>
-<p>All things should have both an entrance and an exit. That’s just the way it is. pg 10 </p>
-
-<p>Almost nothing can be gained from pinball. The only payoff is a numerical substitution for pride. The losses, however are considerable. You could probably erect bronze statues of every American president (assuming you are willing to include Richard Nixon) w/ the coins you will lose, while lost time is irreplaceable. When you are standing before the machine engaged in your solitary act of consumption, another guy is plowing through Proust, while still another guy is doing some heavy petting with his girlfriend while watching True Grit at the local drive-in. They’re the one who may wind up becoming groundbreaking novelists or happily married men. No, pinball leads nowhere. The only result is a glowing replay light. Replay, replay, replay – it makes you think the whole aim of the game is to achieve a form of eternity. We know very little about eternity, although we can infer its existence. The goal of pinball is self-transformation, not self-expression. It involves not the expansion of the ego but its diminution. Not analysis but all-embracing acceptance. 21
-</p>
-
-<p>
-…there are 1.2 million conflicting ideas in the world. Probably more.
-page 28</p>
-
-<p>
-We can learn from anything if we put in the effort. Right down to the most everyday, commonplace thing.
-I read somewhere that how we shave in the morning has its own philosophy, too. Otherwise, we couldn’t survive.
-</p>
-
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "350px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-</body>
+  </body>
 </html>

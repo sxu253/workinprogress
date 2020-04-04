@@ -1,97 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:site_name" content="Sonia Xu's Notebook"/>
-  <meta property="og:title" content="A Work in Progress"/>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Optimizing for learning here.">
-  <meta name="author" content="Sonia Xu">
-
-<!-- Custom styles for this template -->
-<link href="wordsStylingSheet.css" rel="stylesheet">
-
-<title>A Work in Progress</title>
+  <head>
+    <meta property="og:site_name" content="Sonia Xu's Notebook"/>
+    <meta property="og:title" content="A Work in Progress"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Optimizing for learning here.">
+    <meta name="author" content="Sonia Xu">
+    <title>A Work in Progress</title>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136324018-1"></script>
+    <!-- Custom styles for this template -->
+    <link href="wordsStylingSheet.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="topContainer">
+      <div class="titleAndSubtitle">
+        <p class="title">The Effective Engineer</p>
+        <h3 class="authorTitle"> – Edmond Lau</h3>
+      </div>
+      <button class="WritingMenuButton">WRITINGS</button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+    </div>
+    <h4>I copied down all the gems from the book. Not a necessary a book you need to read through all the way, all the words I've collected here are what I found the most interesting/useful.
+    Some of this is copied word for word, some of it is my own infused thoughts/paraphrasing.</h4>
+    <p> Instead of asking first : How should we do this?  <strong>ask —> Why do we need to do this at all?</strong></p>
+    <p>To be effective engineers, we need to be able to identify which activities produce more impact with smaller time investments. Not all work is created equal. Not all efforts, however well-intentioned, translate into impact. 2</p>
+    <p><strong>leverage = impact produced / time invested</strong></p>
+    <p>high-leverage activities behave similarly, letting you amplify your limited time and effort to produce much more impact. 12</p>
+    <h4>Only 3 ways to increase leverage:</h4>
+    <ol>
+      <li>reduce time it takes to complete activity —> how can i complete this activity in a shorter amount of time?</li>
+      <li>increase output of activity —> how can i increase the value produced by this activity?</li>
+      <li>shifting a higher-leverage activity —> is there something else I could spend my time on that would produce more value?</li>
+    </ol>
+    <p>
+    *don’t confused high-leverage activities with easy wins*
+    </p>
+    <h4>Optimize for learning!!</h4>
+    <ul>
+    <li>Learning follows an exponential growth curve. Knowledge gives you a foundation, enabling you to gain more knowledge even faster.</li>
+    <li>The earlier you optimize for learning, the more time your learning has to compound.</li>
+    <li>Due to compounding, even small deltas in your own learning rate make a big difference over the long run.</li>
+    </ul>
+    </p>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-136324018-1');
+      $(document).ready(function(){
+        $("#mySidenav").toggle().width("400pt");
+        $("div").click(function(){
+          // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+            $("#mySidenav").load("nav.html");
+            $("#mySidenav").toggle().width("400pt");
+        });
+      });
     </script>
-</head>
-
-<body>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div id = "home" ><a href="index.html">take me home</a></div>
-    <p style = "color: #fff; font-size: 14px">LEARNING</p>
-    <a href="searching.html">everyone always asks about what search algorithm to use but never asks what are you searching for</a>
-    <a href="fundamentals.html">sometimes there's no fun in fundamentals</a>
-    <a href="knowledgehoarder.html">be a knowledge hoarder</a>
-    <p style = "color: #fff; font-size: 14px">PRODUCT & TECH STUFF</p>
-    <a href="instagram.html">instagram is giving me closure on my friendships</a>
-    <p style = "color: #fff; font-size: 14px">LIFE</p>
-    <a href="musubi.html">have you found your one true musubi?</a>
-  <a href="alist.html">things i used to believe that i don't believe anymore</a>
-  <a href="noroi.html">Daily Acts of Compassion with no ROI</a>
-  <a href="rightsideofwrong.html">right side of wrong</a>
-    <p style = "color: #fff; font-size: 14px">BOOKS</p>
-    <a href="hearthewindsing.html">Hear the Wind Sing by Haruki Murakami</a>
-    <a href="pinball1973.html">Pinball, 1973 by Haruki Murakami</a>
-    <a href="OnlyTheParanoidSurvive.html">Only the Paranoid Survive by Andrew S. Grove</a>
-    <a href="theeffectiveengineer.html">The Effective Engineer by Edmond Lau</a>
-    <a href="VietThanhNguyen.html" style="padding-bottom: 50px">The Sympathizer by Viet Thanh Nguyen</a>
-  </div>
-
-<span style="font-size:20px;margin:20px;cursor:pointer" onclick="openNav()">&#9776; control center</span>
-
-<p class= "title">The Effective Engineer</p>
-<h3> – Edmond Lau</h3>
-<h4>I copied down all the gems from the book. Not a necessary a book you need to read through all the way, all the words I've collected here are what I found the most interesting/useful.
-Some of this is copied word for word, some of it is my own infused thoughts/paraphrasing.</h4>
-
-<p> Instead of asking first : How should we do this?  <strong>ask —> Why do we need to do this at all?</strong></p>
-
-<p>To be effective engineers, we need to be able to identify which activities produce more impact with smaller time investments. Not all work is created equal. Not all efforts, however well-intentioned, translate into impact. 2
-
-<p><strong>leverage = impact produced / time invested</strong></p>
-<p>high-leverage activities behave similarly, letting you amplify your limited time and effort to produce much more impact. 12</p>
-<h4>Only 3 ways to increase leverage:</h4>
-<ol>
-  <li>reduce time it takes to complete activity —> how can i complete this activity in a shorter amount of time?</li>
-  <li>increase output of activity —> how can i increase the value produced by this activity?</li>
-  <li>shifting a higher-leverage activity —> is there something else I could spend my time on that would produce more value?</li>
-</ol>
-
-<p>
-*don’t confused high-leverage activities with easy wins*
-</p>
-<h4>Optimize for learning!!</h4>
-<ul>
-<li>Learning follows an exponential growth curve. Knowledge gives you a foundation, enabling you to gain more knowledge even faster.</li>
-<li>The earlier you optimize for learning, the more time your learning has to compound.</li>
-<li>Due to compounding, even small deltas in your own learning rate make a big difference over the long run.</li>
-</ul>
-</p>
-
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "350px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-</body>
+  </body>
 </html>

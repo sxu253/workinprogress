@@ -1,88 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:site_name" content="Sonia Xu's Notebook"/>
-  <meta property="og:title" content="A Work in Progress"/>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Optimizing for learning here.">
-  <meta name="author" content="Sonia Xu">
-
-<!-- Custom styles for this template -->
-<link href="wordsStylingSheet.css" rel="stylesheet">
-
-<title>A Work in Progress</title>
+  <head>
+    <meta property="og:site_name" content="Sonia Xu's Notebook"/>
+    <meta property="og:title" content="A Work in Progress"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Optimizing for learning here.">
+    <meta name="author" content="Sonia Xu">
+    <title>A Work in Progress</title>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136324018-1"></script>
+    <!-- Custom styles for this template -->
+    <link href="wordsStylingSheet.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="topContainer">
+      <div class="titleAndSubtitle">
+        <p class="title">The Sympathizer</p>
+        <h3 class="authorTitle">– Viet Thanh Nguyen</h3>
+      </div>
+      <button class="WritingMenuButton">WRITINGS</button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+    </div>
+    <h4>I borrowed this book from someone's house I didn't know...so I couldn't dogear it or make any markings and it was full of so much beautiful writing I gave up trying to keep track of it all.
+    The few I managed to write down somewhere while I was reading it. </h4>
+    <p>We don’t succeed or fail because of fortune or luck. We succeed because we understand the way the world works and what we have to do. We fail because others understand this better than we do. </p>
+    <p>The unseen is always underlined by the unsaid. </p>
+    <p>Remember, you're not half of anything, you're twice of everything.</p>
+    <p>
+      We’re revolutionaries, my friend. Suffering made us. Suffering for the people is what we chose because we sympathized so much with their suffering.
+      Around our shoulders and chest we will strap the rucksack, cipher and manuscript inside. Whether we live or die, the weight of those words will hang on us. What do those who struggle against power do when they seize power? What does the revolutionary do when the revolution triumphs? Why do those who call for independence and freedom take away the independence and freedom of others? And is it sane or insane to believe, as so many around us apparently do, in nothing? Our life and our death has taught us always to sympathize with the undesirables among the undesirables. Thus magnetized by experience, our compass continually pointing toward those who suffer. </p>
+    </p>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-136324018-1');
+      $(document).ready(function(){
+        $("#mySidenav").toggle().width("400pt");
+        $("div").click(function(){
+          // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+            $("#mySidenav").load("nav.html");
+            $("#mySidenav").toggle().width("400pt");
+        });
+      });
     </script>
-</head>
-
-<body>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div id = "home" ><a href="index.html">take me home</a></div>
-    <p style = "color: #fff; font-size: 14px">LEARNING</p>
-    <a href="searching.html">everyone always asks about what search algorithm to use but never asks what are you searching for</a>
-    <a href="fundamentals.html">sometimes there's no fun in fundamentals</a>
-    <a href="knowledgehoarder.html">be a knowledge hoarder</a>
-    <p style = "color: #fff; font-size: 14px">PRODUCT & TECH STUFF</p>
-    <a href="instagram.html">instagram is giving me closure on my friendships</a>
-    <p style = "color: #fff; font-size: 14px">LIFE</p>
-    <a href="musubi.html">have you found your one true musubi?</a>
-  <a href="alist.html">things i used to believe that i don't believe anymore</a>
-  <a href="noroi.html">Daily Acts of Compassion with no ROI</a>
-  <a href="rightsideofwrong.html">right side of wrong</a>
-    <p style = "color: #fff; font-size: 14px">BOOKS</p>
-    <a href="hearthewindsing.html">Hear the Wind Sing by Haruki Murakami</a>
-    <a href="pinball1973.html">Pinball, 1973 by Haruki Murakami</a>
-    <a href="OnlyTheParanoidSurvive.html">Only the Paranoid Survive by Andrew S. Grove</a>
-    <a href="theeffectiveengineer.html">The Effective Engineer by Edmond Lau</a>
-    <a href="VietThanhNguyen.html" style="padding-bottom: 50px">The Sympathizer by Viet Thanh Nguyen</a>
-  </div>
-
-<span style="font-size:20px;margin:20px;cursor:pointer" onclick="openNav()">&#9776; control center</span>
-
-<p class= "title">The Sympathizer</p>
-<h3> – Viet Thanh Nguyen</h3>
-<h4>I borrowed this book from someone's house I didn't know...so I couldn't dogear it or make any markings and it was full of so much beautiful writing I gave up trying to keep track of it all.
-The few I managed to write down somewhere while I was reading it. </h4>
-
-
-<p>We don’t succeed or fail because of fortune or luck. We succeed because we understand the way the world works and what we have to do. We fail because others understand this better than we do. </p>
-
-<p>The unseen is always underlined by the unsaid. </p>
-
-<p>Remember, you're not half of anything, you're twice of everything.</p>
-
-<p>
-  We’re revolutionaries, my friend. Suffering made us. Suffering for the people is what we chose because we sympathized so much with their suffering.
-
-  Around our shoulders and chest we will strap the rucksack, cipher and manuscript inside. Whether we live or die, the weight of those words will hang on us. What do those who struggle against power do when they seize power? What does the revolutionary do when the revolution triumphs? Why do those who call for independence and freedom take away the independence and freedom of others? And is it sane or insane to believe, as so many around us apparently do, in nothing? Our life and our death has taught us always to sympathize with the undesirables among the undesirables. Thus magnetized by experience, our compass continually pointing toward those who suffer. </p>
-</p>
-
-
-
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "350px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-</body>
+  </body>
 </html>
