@@ -70,7 +70,7 @@ button.closeButton {
   border: 2px solid white;
   width: 8%;
   margin: 30px;
-  font-size: 25px;
+  font-size: 20px;
   color: #1DC5A2;
   background-color: white;
 }
@@ -82,14 +82,14 @@ button.closeButton:hover {
 
 button.closeButton a {
   color: #1DC5A2;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px 0px 0px 0px;
   text-align: center;
 }
 
 button.closeButton a:hover {
   color:white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .sidenav {
