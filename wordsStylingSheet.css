@@ -52,7 +52,6 @@ span {
 #home:hover {
   background-color: #FFFFFF;
   color: #1DC5A2;
-  
 }
 
 #home a {
@@ -63,6 +62,7 @@ span {
 
 #home a:hover {
   color:#0FBF9A;
+  font-weight: normal;
 }
 
 button.closeButton {
