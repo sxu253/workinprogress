@@ -41,12 +41,12 @@ span {
 }
 
 #home {
-  border: 3px solid white;
-  width: 60%;
+  border: 2px solid white;
+  width: 35%;
   margin: 30px;
   font-size: 15px;
   color: white;
-  padding: 12px;
+  padding: 3px;
 }
 
 #home:hover {
@@ -54,25 +54,24 @@ span {
   color: #1DC5A2;
 }
 
+#home a {
+  color: white;
+  font-size: 15px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
 #home a:hover {
   color:#0FBF9A;
   font-size: 16px;
 }
 
-#home a {
-  color: white;
-  font-size: 16px;
-  margin: 0px 0px 0px 0px;
-  text-align: center;
-}
-
 button.closeButton {
-  border: 3px solid white;
-  width: 60%;
+  border: 2px solid white;
+  width: 8%;
   margin: 30px;
   font-size: 25px;
   color: #1DC5A2;
-  padding: 12px;
   background-color: white;
 }
 
@@ -81,15 +80,17 @@ button.closeButton:hover {
   color: white;
 }
 
+button.closeButton a {
+  color: #1DC5A2;
+  font-size: 25px;
+}
+
 button.closeButton a:hover {
   color:white;
   font-size: 25px;
 }
 
-button.closeButton a {
-  color: #1DC5A2;
-  font-size: 25px;
-}
+
 
 .sidenav {
   padding-top: 20px;
