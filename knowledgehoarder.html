@@ -1,84 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta property="og:site_name" content="Sonia Xu's Notebook"/>
-<meta property="og:title" content="A Work in Progress"/>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Optimizing for learning here.">
-<meta name="author" content="Sonia Xu">
-
-<title>A Work in Progress</title>
+  <head>
+    <meta property="og:site_name" content="Sonia Xu's Notebook"/>
+    <meta property="og:title" content="A Work in Progress"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Optimizing for learning here.">
+    <meta name="author" content="Sonia Xu">
+    <title>A Work in Progress</title>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136324018-1"></script>
+    <!-- Custom styles for this template -->
+    <link href="wordsStylingSheet.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class = "topContainer">
+      <p class = "title">be a knowledge hoarder</p>
+      <button class="WritingMenuButton">WRITINGS</button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+    </div>
+    <p>
+    I interviewed for a front-end developer position at a local radio company months ago. I had dabbled in HTML and CSS, not enough to create a project right then and there, but I applied anyway. Got an interview, and thought, “shit, I need to dig deeper into this language.” At the time, I was studying Java and had taken a course in Python. This was my first interview that required technical knowledge that wasn’t business/visual design related.
+    </p>
+    <p>
+    I spent a few hours studying the front-end languages. I was optimistic. The job description stated basic working knowledge of html/css. I felt good afterwards. I felt like I was giving off good communication vibes. I didn’t get the offer. I remember receiving the e-mail and rethinking every part of the interview and all of a sudden all those moments I thought I was excelling, I now saw them in a new light. Maybe my confidence was misinterpreted as arrogance? Maybe my willingness to answer boldly was perceived as pretentious? Maybe my hopes of coming across as proactive came off as desperate? I thought all these thoughts and then thought, “none of this matters. you'll never know what's going on, on the other side. you can't go through life just making up assumptions. i know from being on the other side of the table, there are a vast amount of variables that go into deciding who to pick. many of which that don't concern the actual candidate. it's a waste of life. at least you learned some html/css. move on."
+    </p>
+    <p>
+    ...and I did.
+    </p>
+    <p>
+    Last week I reached out to a designer at work, and asked if there were any projects I could take on for my last week at this project management internship. He asked if I knew any html/css, I smiled and said, yes.
+    </p>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-136324018-1');
+      $(document).ready(function(){
+        $("#mySidenav").toggle().width("400pt");
+        $("div").click(function(){
+          // $("#mySidenav").load("nav.html").toggle(300,"swing").width("400pt");
+            $("#mySidenav").load("nav.html");
+            $("#mySidenav").toggle().width("400pt");
+        });
+      });
     </script>
-
-<!-- Custom styles for this template -->
-<link href="wordsStylingSheet.css" rel="stylesheet">
-
-</head>
-
-<body>
-<div class = "topContainer">
-  <span style="font-size:20px;margin:20px;cursor:pointer" onclick="openNav()">&#9776; control center</span>
-  <p class = "title">be a knowledge hoarder</p>
-</div>
-
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div id = "home" ><a href="index.html">take me home</a></div>
-  <p style = "color: #fff; font-size: 14px">LEARNING</p>
-  <a href="searching.html">everyone always asks about what search algorithm to use but never asks what are you searching for</a>
-  <a href="fundamentals.html">sometimes there's no fun in fundamentals</a>
-  <a href="knowledgehoarder.html">be a knowledge hoarder</a>
-  <p style = "color: #fff; font-size: 14px">PRODUCT & TECH STUFF</p>
-  <a href="instagram.html">instagram is giving me closure on my friendships</a>
-  <p style = "color: #fff; font-size: 14px">LIFE</p>
-  <a href="musubi.html">have you found your one true musubi?</a>
-<a href="alist.html">things i used to believe that i don't believe anymore</a>
-<a href="noroi.html">Daily Acts of Compassion with no ROI</a>
-<a href="rightsideofwrong.html">right side of wrong</a>
-  <p style = "color: #fff; font-size: 14px">BOOKS</p>
-  <a href="hearthewindsing.html">Hear the Wind Sing by Haruki Murakami</a>
-  <a href="pinball1973.html">Pinball, 1973 by Haruki Murakami</a>
-  <a href="OnlyTheParanoidSurvive.html">Only the Paranoid Survive by Andrew S. Grove</a>
-  <a href="theeffectiveengineer.html">The Effective Engineer by Edmond Lau</a>
-  <a href="VietThanhNguyen.html" style="padding-bottom: 50px">The Sympathizer by Viet Thanh Nguyen</a>
-</div>
-
-<p>
-I interviewed for a front-end developer position at a local radio company months ago. I had dabbled in HTML and CSS, not enough to create a project right then and there, but I applied anyway. Got an interview, and thought, “shit, I need to dig deeper into this language.” At the time, I was studying Java and had taken a course in Python. This was my first interview that required technical knowledge that wasn’t business/visual design related.
-</p>
-<p>
-I spent a few hours studying the front-end languages. I was optimistic. The job description stated basic working knowledge of html/css. I felt good afterwards. I felt like I was giving off good communication vibes. I didn’t get the offer. I remember receiving the e-mail and rethinking every part of the interview and all of a sudden all those moments I thought I was excelling, I now saw them in a new light. Maybe my confidence was misinterpreted as arrogance? Maybe my willingness to answer boldly was perceived as pretentious? Maybe my hopes of coming across as proactive came off as desperate? I thought all these thoughts and then thought, “none of this matters. you'll never know what's going on, on the other side. you can't go through life just making up assumptions. i know from being on the other side of the table, there are a vast amount of variables that go into deciding who to pick. many of which that don't concern the actual candidate. it's a waste of life. at least you learned some html/css. move on."
-</p>
-<p>
-...and I did.
-</p>
-<p>
-Last week I reached out to a designer at work, and asked if there were any projects I could take on for my last week at this project management internship. He asked if I knew any html/css, I smiled and said, yes.
-</p>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "350px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-</body>
+  </body>
 </html>
